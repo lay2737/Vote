@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<string>当你与保险公司签订保险合同时，你认为保险公司的保险项目是什么性质产品</string>
+		<string>A 为了保障被保人利益的产品</string>
+		<string>B 为了保险公司利益最大化的产品</string>
+		<string>C 平衡了合同双方利益的产品</string>
+	</array>
+	<array>
+		<string>当你所居住的市区的政府在市内兴建了大型建筑时，你认为这一工程的最大受益人是谁？</string>
+		<string>A 市政府的领导</string>
+		<string>Ｂ 全体市民</string>
+		<string>Ｃ 建筑承包商</string>
+	</array>
+	<array>
+		<string>当股市下跌非常严重的时候，你认为导致这一现象的主要原因是什么?</string>
+		<string>Ａ正常的市场波动</string>
+		<string>Ｂ资本投机者的阴谋</string>
+		<string>Ｃ领导人的失职</string>
+	</array>
+	<array>
+		<string>当城管在街边搜寻不法商贩的时候，你认为他们的主要目的是什么</string>
+		<string>Ａ收取罚款</string>
+		<string>Ｂ净化城市环境</string>
+		<string>Ｃ满足个人的权利欲望</string>
+	</array>
+	<array>
+		<string>假如你是一名医生，来看病的病人具体病因无法确定你会怎么做</string>
+		<string>Ａ让病人接受全面的检查</string>
+		<string>Ｂ让病人自己选择检查内容</string>
+		<string>Ｃ只检查自己人为最可能的一项</string>
+	</array>
+	<array>
+		<string>假如你是一名患者，医生让你检查了很多项目你认为他的目的是什么</string>
+		<string>Ａ多为医院赚钱</string>
+		<string>Ｂ避免漏洞错过大病</string>
+		<string>Ｃ试图将工作踢给别的大夫</string>
+	</array>
+	<array>
+		<string>某村村民集体上告村委会，在不知晓具体案情的情况下，你认为谁的过错更为主要</string>
+		<string>Ａ村民</string>
+		<string>Ｂ村政府</string>
+		<string>C双方都有相同的责任</string>
+	</array>
+	<array>
+		<string>一女孩与男友傍晚在河边散步，第二天发现女孩溺死在河中，尸检认为女孩是自杀，你认为女孩最有可能是死因是什么？</string>
+		<string>A 失足落水</string>
+		<string>B 自杀跳水</string>
+		<string>C 奸杀投河</string>
+	</array>
+</array>
+</plist>
