@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F1329A78CB21C0015718AD5 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ED15B3269A84E443ADBDE41 /* libPods.a */; };
 		85560AE21C8839A000EB032D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85560AE11C8839A000EB032D /* main.m */; };
 		85560AE51C8839A000EB032D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85560AE41C8839A000EB032D /* AppDelegate.m */; };
 		85560AE81C8839A000EB032D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85560AE71C8839A000EB032D /* ViewController.m */; };
@@ -19,8 +20,12 @@
 		85560B181C883CDB00EB032D /* Question_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85560B171C883CDB00EB032D /* Question_ViewController.m */; };
 		85560B1A1C88417A00EB032D /* Questions.plist in Resources */ = {isa = PBXBuildFile; fileRef = 85560B191C88417A00EB032D /* Questions.plist */; };
 		85FA32F01C8965BD00380570 /* Result_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85FA32EF1C8965BD00380570 /* Result_ViewController.m */; };
-		85FA32F31C896A2A00380570 /* CountHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 85FA32F21C896A2A00380570 /* CountHelper.m */; };
 		85FA32F61C89826A00380570 /* BingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85FA32F51C89826A00380570 /* BingView.m */; };
+		85FBE8BD1C8D163D00297615 /* YHDBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 85FBE8BA1C8D163D00297615 /* YHDBHelper.m */; };
+		85FBE8BE1C8D163D00297615 /* YHDBModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 85FBE8BC1C8D163D00297615 /* YHDBModel.m */; };
+		85FBE8C11C8D18AD00297615 /* ResultModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 85FBE8C01C8D18AD00297615 /* ResultModel.m */; };
+		85FBE8C51C8D704B00297615 /* ResultCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 85FBE8C31C8D704B00297615 /* ResultCell.m */; };
+		85FBE8C61C8D704B00297615 /* ResultCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85FBE8C41C8D704B00297615 /* ResultCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4ED15B3269A84E443ADBDE41 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		85560ADD1C8839A000EB032D /* JZCJB_ro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JZCJB_ro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85560AE11C8839A000EB032D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		85560AE31C8839A000EB032D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -64,10 +70,19 @@
 		85560B191C88417A00EB032D /* Questions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Questions.plist; sourceTree = "<group>"; };
 		85FA32EE1C8965BD00380570 /* Result_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Result_ViewController.h; sourceTree = "<group>"; };
 		85FA32EF1C8965BD00380570 /* Result_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Result_ViewController.m; sourceTree = "<group>"; };
-		85FA32F11C896A2A00380570 /* CountHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountHelper.h; sourceTree = "<group>"; };
-		85FA32F21C896A2A00380570 /* CountHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountHelper.m; sourceTree = "<group>"; };
 		85FA32F41C89826A00380570 /* BingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BingView.h; sourceTree = "<group>"; };
 		85FA32F51C89826A00380570 /* BingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BingView.m; sourceTree = "<group>"; };
+		85FBE8B91C8D163D00297615 /* YHDBHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHDBHelper.h; sourceTree = "<group>"; };
+		85FBE8BA1C8D163D00297615 /* YHDBHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHDBHelper.m; sourceTree = "<group>"; };
+		85FBE8BB1C8D163D00297615 /* YHDBModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHDBModel.h; sourceTree = "<group>"; };
+		85FBE8BC1C8D163D00297615 /* YHDBModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHDBModel.m; sourceTree = "<group>"; };
+		85FBE8BF1C8D18AD00297615 /* ResultModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultModel.h; sourceTree = "<group>"; };
+		85FBE8C01C8D18AD00297615 /* ResultModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultModel.m; sourceTree = "<group>"; };
+		85FBE8C21C8D704B00297615 /* ResultCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultCell.h; sourceTree = "<group>"; };
+		85FBE8C31C8D704B00297615 /* ResultCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultCell.m; sourceTree = "<group>"; };
+		85FBE8C41C8D704B00297615 /* ResultCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResultCell.xib; sourceTree = "<group>"; };
+		C36C15E15F641A1037521A0F /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		E133B757CE08212CA169DABA /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F1329A78CB21C0015718AD5 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +111,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B4226C9F4707301DD4091A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4ED15B3269A84E443ADBDE41 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		85560AD41C88399F00EB032D = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +126,8 @@
 				85560AF91C8839A000EB032D /* JZCJB_roTests */,
 				85560B041C8839A100EB032D /* JZCJB_roUITests */,
 				85560ADE1C8839A000EB032D /* Products */,
+				FDCD40A3F80B57667827E6C1 /* Pods */,
+				0B4226C9F4707301DD4091A3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -118,12 +144,14 @@
 		85560ADF1C8839A000EB032D /* JZCJB_ro */ = {
 			isa = PBXGroup;
 			children = (
+				85FBE8B91C8D163D00297615 /* YHDBHelper.h */,
+				85FBE8BA1C8D163D00297615 /* YHDBHelper.m */,
+				85FBE8BB1C8D163D00297615 /* YHDBModel.h */,
+				85FBE8BC1C8D163D00297615 /* YHDBModel.m */,
 				85560B161C883CDB00EB032D /* Question_ViewController.h */,
 				85560B171C883CDB00EB032D /* Question_ViewController.m */,
 				85FA32EE1C8965BD00380570 /* Result_ViewController.h */,
 				85FA32EF1C8965BD00380570 /* Result_ViewController.m */,
-				85FA32F11C896A2A00380570 /* CountHelper.h */,
-				85FA32F21C896A2A00380570 /* CountHelper.m */,
 				85560B131C883A6F00EB032D /* LExtension.h */,
 				85560B141C883A6F00EB032D /* LExtension.m */,
 				85560AE31C8839A000EB032D /* AppDelegate.h */,
@@ -138,6 +166,11 @@
 				85560B191C88417A00EB032D /* Questions.plist */,
 				85FA32F41C89826A00380570 /* BingView.h */,
 				85FA32F51C89826A00380570 /* BingView.m */,
+				85FBE8BF1C8D18AD00297615 /* ResultModel.h */,
+				85FBE8C01C8D18AD00297615 /* ResultModel.m */,
+				85FBE8C21C8D704B00297615 /* ResultCell.h */,
+				85FBE8C31C8D704B00297615 /* ResultCell.m */,
+				85FBE8C41C8D704B00297615 /* ResultCell.xib */,
 			);
 			path = JZCJB_ro;
 			sourceTree = "<group>";
@@ -168,6 +201,15 @@
 			path = JZCJB_roUITests;
 			sourceTree = "<group>";
 		};
+		FDCD40A3F80B57667827E6C1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C36C15E15F641A1037521A0F /* Pods.debug.xcconfig */,
+				E133B757CE08212CA169DABA /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -175,9 +217,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 85560B0A1C8839A100EB032D /* Build configuration list for PBXNativeTarget "JZCJB_ro" */;
 			buildPhases = (
+				0E3BB6391152AFC5C6413205 /* Check Pods Manifest.lock */,
 				85560AD91C8839A000EB032D /* Sources */,
 				85560ADA1C8839A000EB032D /* Frameworks */,
 				85560ADB1C8839A000EB032D /* Resources */,
+				522407CE88D2B00A2D197410 /* Embed Pods Frameworks */,
+				5BFE061128CBF5FC461AF83B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -275,6 +320,7 @@
 				85560AF01C8839A000EB032D /* LaunchScreen.storyboard in Resources */,
 				85560AED1C8839A000EB032D /* Assets.xcassets in Resources */,
 				85560AEB1C8839A000EB032D /* Main.storyboard in Resources */,
+				85FBE8C61C8D704B00297615 /* ResultCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +340,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0E3BB6391152AFC5C6413205 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		522407CE88D2B00A2D197410 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5BFE061128CBF5FC461AF83B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		85560AD91C8839A000EB032D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -302,10 +396,13 @@
 				85FA32F61C89826A00380570 /* BingView.m in Sources */,
 				85560B181C883CDB00EB032D /* Question_ViewController.m in Sources */,
 				85560B151C883A6F00EB032D /* LExtension.m in Sources */,
+				85FBE8C11C8D18AD00297615 /* ResultModel.m in Sources */,
 				85560AE81C8839A000EB032D /* ViewController.m in Sources */,
 				85FA32F01C8965BD00380570 /* Result_ViewController.m in Sources */,
+				85FBE8C51C8D704B00297615 /* ResultCell.m in Sources */,
 				85560AE51C8839A000EB032D /* AppDelegate.m in Sources */,
-				85FA32F31C896A2A00380570 /* CountHelper.m in Sources */,
+				85FBE8BD1C8D163D00297615 /* YHDBHelper.m in Sources */,
+				85FBE8BE1C8D163D00297615 /* YHDBModel.m in Sources */,
 				85560AE21C8839A000EB032D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -365,6 +462,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -397,9 +495,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "c75e0014-8d4a-4856-8456-977c072869da";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -408,6 +507,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -434,8 +534,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "c75e0014-8d4a-4856-8456-977c072869da";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -443,23 +544,29 @@
 		};
 		85560B0B1C8839A100EB032D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C36C15E15F641A1037521A0F /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JZCJB_ro/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "lay.JZCJB-ro";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c75e0014-8d4a-4856-8456-977c072869da";
 			};
 			name = Debug;
 		};
 		85560B0C1C8839A100EB032D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E133B757CE08212CA169DABA /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JZCJB_ro/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "lay.JZCJB-ro";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c75e0014-8d4a-4856-8456-977c072869da";
 			};
 			name = Release;
 		};
